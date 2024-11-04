@@ -59,7 +59,7 @@ def ver_contatos_favoritos(contatos):
 def apagar_contato(contatos, indice_contato):
     print(indice_contato)
     removido = contatos.pop(int(indice_contato) - 1)
-    print(f'Contato {removido["nome"]} excluído com sucesso!')
+    print(f'Contato {removido["nome"]} excluído com sucesso')
     return
 
 
